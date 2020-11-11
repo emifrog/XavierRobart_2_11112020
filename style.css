@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*--nav--*/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 80px;
+    padding-left: 30px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+
+/*.navbar{
+    background: #002448;
+}*/
+
+.navbar-toggle{
+    border: none!important;
+}
+
+.nav-link{
+    color: #000!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*--header--*/
+.header .container{
+    margin-left: 40px;
+}
+
+.header .container .input-group{
+    width: 50%;
+}
+.input-group .form-control::placeholder { 
+    color: #000;
+    font-weight: bold;
+}
+.input-group-append .input-group-text{
+    background-color: #0275d8;
+    color: #fff;
+}
+
+/*hebergement*/
+.hebergement .container{
+    margin: 50px;
+    padding-top: 50px;
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    background: #F2F2F2;
+}
+.hebergement .container h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #040e27;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+.hebergement .single-dest{
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.hebergement .single-dest .thumb{
+    position: relative;
+    overflow: hidden;
+}
+.hebergement .single-dest .thumb img{
+    width: 100%;
+}
+.hebergement .single-dest .dest-info{
+    padding: 27px 20px 25px 20px;
+}
+.hebergement .single-dest .dest-info h4{
+    font-size: 22px;
+    font-weight: bold;
+    color: #040e27;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+.hebergement .single-dest .dest-info p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #000;
+    margin-top: 2px;
+    margin-bottom: 7;
+    transition: 0.3s;
+}
+.hebergement .single-dest .dest-info a{
+    font-size: 14px;
+    font-weight: light;
+    font-weight: bold;
+    color: #000;
+}
+
+.hebergement .single-dest .dest-info .rating span i{
+    font-size: 12px;
+    color: #0065FC;
+}
+.hebergement .single-dest .dest-info .rating span a{
+    font-size: 14px;
+    color: #000;
+    margin-left: 5px;
+}
+.hebergement .single-dest .dest-info .rating .days i{
+    margin-right: 8px;
+}
+.hebergement .single-dest .dest-info .rating .days a{
+    font-size: 14px;
+    color: #000;
+}
+.hebergement .single-dest:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.hebergement .single-dest:hover .dest-info h3{
+    color: #030942;
+}
+.hebergement .single-dest:hover .thumb .price{
+    background: #0292f1;
+}
+
+/*populaire*/
+.populaire .container{
+    max-width: 1140px;
+    margin: 50px;
+    padding-top: 50px;
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    background: #F2F2F2;
+}
+.populaire .container h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #040e27;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+.populaire .single-dest{
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.populaire .single-dest .thumb{
+    position: relative;
+    overflow: hidden;
+}
+.populaire .single-dest .thumb img{
+    width: 100%;
+}
+.populaire .single-dest .dest-info{
+    padding: 27px 20px 25px 20px;
+}
+.populaire .single-dest .dest-info h4{
+    font-size: 22px;
+    font-weight: bold;
+    color: #040e27;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+.populaire .single-dest .dest-info p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #000;
+    margin-top: 2px;
+    margin-bottom: 7;
+    transition: 0.3s;
+}
+.populaire .single-dest .dest-info a{
+    font-size: 14px;
+    font-weight: light;
+    font-weight: bold;
+    color: #000;
+}
+
+.populaire .single-dest .dest-info .rating span i{
+    font-size: 12px;
+    color: #0065FC;
+}
+.populaire .single-dest .dest-info .rating span a{
+    font-size: 14px;
+    color: #000;
+    margin-left: 5px;
+}
+.populaire .single-dest .dest-info .rating .days i{
+    margin-right: 8px;
+}
+.populaire .single-dest .dest-info .rating .days a{
+    font-size: 14px;
+    color: #000;
+}
+.populaire .single-dest:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.populaire .single-dest:hover .dest-info h3{
+    color: #030942;
+}
+.populaire .single-dest:hover .thumb .price{
+    background: #0292f1;
+}
