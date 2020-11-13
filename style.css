@@ -58,7 +58,10 @@ body{
 .mt-1 .container{
     margin-left: 40px;
 }
-
+.mt-1 .container h1{
+    font-size: 25px;
+    font-weight: bold;
+}
 .mt-1 .container .input-group{
     width: 50%;
 }
@@ -83,7 +86,6 @@ body{
 .hebergement .container h3{
     font-size: 25px;
     font-weight: bold;
-    color: #040e27;
     margin-bottom: 0;
     transition: 0.3s;
 }
