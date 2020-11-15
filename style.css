@@ -37,7 +37,7 @@ body{
 }
 
 #header .navbar ul li a:hover{
-    color: #007bff!important;
+    color: #0065FC!important;
 }
 
 .navbar .navbar-toggle{
@@ -72,9 +72,51 @@ body{
     font-weight: bold;
 }
 .input-group-append .input-group-text{
-    background-color: #0275d8;
+    background-color: #0065FC;
     color: #fff;
     border-radius: 10px;
+}
+.wrapper h4{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrapper .button{
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    float: none;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.button:hover {background-color: #DEEBFF}
+/*.wrapper .button:hover{
+    width: 200px;
+}*/
+.wrapper .button .icon{
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    background: #DEEBFF;
+}
+
+.wrapper .button .icon i{
+    font-size: 20px;
+    line-height: 60px;
+    color: #0065FC;
+}
+.wrapper .button  span{
+    font-weight: bold;
+    line-height: 60px;
+    margin-left: 10px;
 }
 
 /*hebergement*/
@@ -92,6 +134,7 @@ body{
     margin-bottom: 0;
     transition: 0.3s;
 }
+
 .hebergement .single-dest{
     background: #fff;
     border-radius: 10px;
@@ -268,7 +311,7 @@ footer {
 .liste li {
     padding: 2px 0;
 }
-.liste a {
+.contenu-footer .liste a {
     text-decoration: none;
     color: #000;
 }
