@@ -9,34 +9,35 @@
 	</head>
 
 	<body>
-		<div id="blocpage">
+		<div id="container">
 			
 			<!--Header-->
 			<header> 
 				<div class="containerheader">
 					<div id="logo"> 
-						<img class="Logohaut" src="images/Reservia.svg" alt="Reservia"/>
+						<img class="logo" src="images/Reservia.svg" alt="Reservia"/>
 					</div>
 					<nav class="headerNav"> 
 						<ul>
-							<li><a href="#section1"> Hébergements</a></li>
-							<li><a href="#section3"> Activités</a></li>
+							<li><a href="#"> Hébergements</a></li>
+							<li><a href="#"> Activités</a></li>
 							<li class="inscrire">S'inscrire</li>
 						</ul>
 					</nav>
 				</div>
 				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 				<p>En plein centre ville ou en pleine nature</p>
-				<div class="recherchebarre">	
-					<div class="iconeinput">	
+				<div class="search">	
+					<div class="input-group">	
 						<div class=iconemap>
 							<i class="fas fa-map-marker-alt"></i>
 						</div>
-						<input type="text" name="pseudo" id="pseudo" placeholder="Marseille,France"/>
+						<input type="text" class="form-control" placeholder="Marseille,France"/>
 			    	</div>
 			        <button>Rechercher</button>
 				</div>
-				<div class="Filtres"> <div class="filtres2">Filtres</div> 
+				<div class="Filtres">
+					<div class="filtres2">Filtres</div> 
 					<span class="iconenom">
 						<div class="iconemoney">
 							<i class="fas fa-money-bill-wave"></i> 
@@ -70,8 +71,10 @@
 				</div>
 			</header>
 					
-			<!--Hébergements-->
+			
 			<div class="allsection">
+
+				<!--Hébergements-->
 				<section> 
 			    	<div id="section1">
 			    		<h3 class="hebergements">Hébergements à Marseille</h3>
@@ -210,7 +213,7 @@
 					</div>
 				</section>
 
-			<!--Activités-->
+				<!--Activités-->
 				<section> 
 					<div id="section3">
 				    	<h1 id="activites">Activités à Marseille</h1><a href="#">
@@ -246,7 +249,9 @@
 						</div>
 				    </div>
 				</section>
+
 			</div>
+
 		</div>
 		
 		<!--Footer-->
@@ -254,19 +259,19 @@
 			<div class="contenu-footer">		
 				<p class="footertxt"> 
 					<strong class="footertitle">A propos</strong>
-					</br>Fonctionnement du site
-					</br>Conditions générales de vente
-					</br>Données et confidentialité
+					<a href="#">Fonctionnement du site</a>
+					<a href="#">Conditions générales de vente</a>
+					<a href="#">Données et confidentialité</a>
 				</p>				
 				<p class="footertxt">
 					<strong class="footertitle">Nos hébérgements</strong>
-					</br>Charte qualité
-					</br>Soummettre votre hotel
+					<a href="#">Charte qualité</a>
+					<a href="#">Soummettre votre hotel</a>
 				</p>				
 				<p class="footertxt">
 					<strong class="footertitle">Assistance</strong>
-					</br>Centre d'aide
-					</br>Nous contacter
+					<a href="#">Centre d'aide</a>
+					<a href="#">Nous contacter</a>
 				</p>
 			</div>
 		</footer>
