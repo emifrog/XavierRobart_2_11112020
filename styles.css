@@ -143,7 +143,7 @@ a:hover {
 .header .filters .filters__item:hover {
     background-color: #0065FC;
     color: #fff;
-    border: 2px solid #0065FC;
+    border: 2px solid #DEEBFF;
     transform: translateY(-1px);
     box-shadow: 1px 1px 1px 1px #DEEBFF;
 }
@@ -386,32 +386,32 @@ h2.title {
     flex-basis: 45%;
 }
 .main .activites__list .activites__group  .activite1 .image {
-    background-image: url("../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size:cover;
     background-position: center;
 }
 .main .activites__list .activites__group .activite2 .image {
-    background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 .main .activites__list .activites__group  .activite3 .image {
-    background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 .main .activites__list .activites__group  .activite4 .image {
-    background-image: url("../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 .main .activites__list .activites__group  .activite5 .image {
-    background-image: url("../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 .main .activites__list .activites__group  .activite6 .image {
-    background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -446,7 +446,7 @@ h2.title {
     font-size: 14px;
 }
   
-/* Regles pour les Mobiles */
+/* MOBILES */
   
   @media (max-width: 766px) {
     .container {
@@ -569,7 +569,7 @@ h2.title {
 }
 }
 
-/* Regles pour les Tablettes */
+/* TABLETTES */
   
 @media (min-width: 768px) and (max-width: 1200px){
 .container{
