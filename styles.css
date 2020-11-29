@@ -69,26 +69,31 @@ a:hover {
 }
 .header .title {
       margin-bottom: 15px; }
-      .header .title h1 {
+.header .title h1 {
         font-size: 22px;
-        margin-bottom: 5px; }
-      .header .title p {
-        font-size: 14px; }
-    .header .search {
+        margin-bottom: 5px;
+}
+.header .title p {
+        font-size: 14px;
+}
+.header .search {
       margin-bottom: 15px;
       display: flex;
-      justify-content: flex-start; }
-      .header .search .group__input {
+      justify-content: flex-start;
+}
+.header .search .group__input {
         display: flex;
         justify-content: center;
-        align-items: center; }
-        .header .search .group__input span {
+        align-items: center;
+}
+.header .search .group__input span {
           display: inline-block;
           background-color: #F2F2F2;
           height: 36px;
           padding: 0 10px;
           line-height: 36px;
-          border-radius: 8px 0 0 8px; }
+          border-radius: 8px 0 0 8px;
+}
 .header .search .group__input input {
     height: 100%;
     border-radius: 0;
@@ -245,6 +250,7 @@ h2.title {
 }
 .main .heberg aside .card__populaire .card__body h3 {
     font-size: 16px;
+    margin-top: -5px;
 }
 .main .heberg aside .card__populaire .card__body .rating {
     align-self: stretch;
