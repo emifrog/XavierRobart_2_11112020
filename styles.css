@@ -107,7 +107,7 @@ a:hover {
     font-weight: bold;
     color: #000;
 }
-.header .search .group__input button {
+.header .search .group__input .btn1 {
     height: 100%;
     border: none;
     background-color: #0065FC;
@@ -115,6 +115,16 @@ a:hover {
     font-weight: 600;
     border-radius: 0 8px 8px 0;
     cursor: pointer;
+}
+.header .search .group__input .btn2{
+    height: 100%;
+    border: none;
+    background-color: #0065FC;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    display: none;
 }
 .header .search .group__input button:hover {
     transform: translateY(-1px);
@@ -435,6 +445,7 @@ h2.title {
 .footer .footer__section {
       display: flex;
       flex-direction: column;
+      flex: 1;
 }
 .footer .footer__section h5{
 	font-size: 16px;
@@ -495,6 +506,7 @@ h2.title {
     .header nav .links .links2 .inscrire {
       align-self: flex-end;
       margin-right: 30px;
+      padding: 0;
     }
     .header nav .links .links1 {
       display: flex;
@@ -509,7 +521,26 @@ h2.title {
         font-weight: 700;
         border-top: none;
         border-bottom: 3px solid #0065FC;
-    }  
+    }
+    .header .search .group__input .btn2 {
+        height: 100%;
+        border: none;
+        background-color: #0065FC;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 0 8px 8px 0;
+        cursor: pointer;
+    }
+    .header .search .group__input .btn1 {
+        height: 100%;
+        border: none;
+        background-color: #0065FC;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 0 8px 8px 0;
+        cursor: pointer;
+        display: none;
+    }
     .main .heberg {
         flex-direction: column;
         justify-content: space-between;
