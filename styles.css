@@ -530,6 +530,7 @@ h2.title {
         font-weight: 600;
         border-radius: 0 8px 8px 0;
         cursor: pointer;
+        display: block;
     }
     .header .search .group__input .btn1 {
         height: 100%;
