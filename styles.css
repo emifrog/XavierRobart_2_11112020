@@ -40,54 +40,54 @@ a:hover {
 
 /* HEADER */
 
-.header nav {
+header nav {
     display: flex;
     justify-content: space-between;
     height: 80px;
     align-items: center;
     margin-bottom: 15px; 
 }
-.header nav .navbar__brand {
+header nav .navbar__brand {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
 }
-.header nav .links {
+header nav .links {
     height: 100%; 
 }
-.header nav li {
+header nav li {
     margin-right: 80px; 
 }
-.header nav li.active {
+header nav li.active {
     border-top: 2px solid #0065FC;
     color: #0065FC; 
 }
-.header nav li.inscrire {
+header nav li.inscrire {
     color: #0065FC;
     font-weight: 700;
     margin-right: 0;
 }
-.header .title {
+header .title {
       margin-bottom: 15px; }
-.header .title h1 {
+header .title h1 {
         font-size: 22px;
         margin-bottom: 5px;
 }
-.header .title p {
+header .title p {
         font-size: 14px;
 }
-.header .search {
+header .search {
       margin-bottom: 15px;
       display: flex;
       justify-content: flex-start;
 }
-.header .search .group__input {
+header .search .group__input {
         display: flex;
         justify-content: center;
         align-items: center;
 }
-.header .search .group__input span {
+header .search .group__input span {
           display: inline-block;
           background-color: #F2F2F2;
           height: 36px;
@@ -95,19 +95,19 @@ a:hover {
           line-height: 36px;
           border-radius: 8px 0 0 8px;
 }
-.header .search .group__input input {
+header .search .group__input input {
     height: 90%;
     border-radius: 0;
     padding-left: 5px;
     border: 1px solid #F2F2F2;
     font-weight: 600;
 }
-.header .search .group__input input::placeholder{
+header .search .group__input input::placeholder{
     font-size: 14px;
     font-weight: bold;
     color: #000;
 }
-.header .search .group__input .btn1 {
+header .search .group__input .btn1 {
     height: 100%;
     border: none;
     background-color: #0065FC;
@@ -116,7 +116,7 @@ a:hover {
     border-radius: 0 8px 8px 0;
     cursor: pointer;
 }
-.header .search .group__input .btn2{
+header .search .group__input .btn2{
     height: 100%;
     border: none;
     background-color: #0065FC;
@@ -126,23 +126,22 @@ a:hover {
     cursor: pointer;
     display: none;
 }
-.header .search .group__input button:hover {
+header .search .group__input button:hover {
     transform: translateY(-1px);
     box-shadow: 1px 1px 1px 1px #F2F2F2;
 }
-.header .filters {
+header .filters {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 15px;
 }
-.header .filters .filters__name{
+header .filters .filters__name{
     font-size: 16px;
     color: #000;
-}
-  
-.header .filters .filters__item {
+}  
+header .filters .filters__item {
     line-height: 35px;
     border: 2px solid #F2F2F2;
     margin: 8px 15px 0;
@@ -157,14 +156,14 @@ a:hover {
     font-weight: bold; 
     cursor: pointer;
 }
-.header .filters .filters__item:hover {
+header .filters .filters__item:hover {
     background-color: #0065FC;
     color: #fff;
     border: 2px solid #DEEBFF;
     transform: translateY(-1px);
     box-shadow: 1px 1px 1px 1px #DEEBFF;
 }
-.header .filters .filters__item span {
+header .filters .filters__item span {
     display: inline-flex;
     height: 38px;
     width: 38px;
@@ -177,13 +176,13 @@ a:hover {
     position: absolute;
     left: -3px;
 }
-.header .info {
+header .info {
     margin-bottom: 25px;
 }
-.header .info p{
+header .info p{
     font-size: 14px;
 }
-.header .info span {
+header .info span {
     display: inline-block;
     line-height: 20px;
     border-radius: 50%;
@@ -435,31 +434,31 @@ h2.title {
   
 /* FOOTER */
 
-.footer {
+footer {
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 30px; 
 }
-.footer .footer__section {
+footer .footer__section {
       display: flex;
       flex-direction: column;
       flex: 1;
 }
-.footer .footer__section h5{
+footer .footer__section h5{
 	font-size: 16px;
 	font-weight: bold;
 }
-.footer .footer__section ul {
+footer .footer__section ul {
     margin-top: 15px;
     margin: 0;
     padding: 0;
 }
-.footer .footer__section ul, .footer .footer__section li {
+footer .footer__section ul, footer .footer__section li {
     display: block; 
 }
-.footer .footer__section ul li{
+footer .footer__section ul li{
     height: 30px;
     font-size: 14px;
 }
@@ -470,59 +469,59 @@ h2.title {
     .container {
       padding: 0;
     }
-    .header .filters .filters__name {
+    header .filters .filters__name {
       flex-basis: 100%;
     }
-    .header {
+    header {
       width: 100%;
       padding: 0;
     }
-    .header .title, .header .search, .header .filters, .header .info {
+    header .title, header .search, header .filters, header .info {
       padding: 0 8px;
     }
-    .header nav {
+    header nav {
       position: relative;
       height: 160px;
     }
-    .header nav .navbar__brand {
+    header nav .navbar__brand {
       position: absolute;
       display: block;
       height: 60px;
       left: 15px;
       top: 15px;
     }
-    .header nav .links {
+    header nav .links {
       display: flex;
       flex-direction: column-reverse;
       justify-content: stretch;
       align-items: stretch;
       width: 100%;
     }
-    .header nav .links .links2 {
+    header nav .links .links2 {
       width: 100%;
       display: flex;
       justify-content: flex-end;
     }
-    .header nav .links .links2 .inscrire {
+    header nav .links .links2 .inscrire {
       align-self: flex-end;
       margin-right: 30px;
       padding: 0;
     }
-    .header nav .links .links1 {
+    header nav .links .links1 {
       display: flex;
       justify-content: space-between;
     }
-    .header nav .links .links1 li {
+    header nav .links .links1 li {
         margin-right: 15px;
         width: 50%;
         height: 50px;
     }
-    .header nav .links .links1 li.active {
+    header nav .links .links1 li.active {
         font-weight: 700;
         border-top: none;
         border-bottom: 3px solid #0065FC;
     }
-    .header .search .group__input .btn2 {
+    header .search .group__input .btn2 {
         height: 100%;
         border: none;
         background-color: #0065FC;
@@ -532,7 +531,7 @@ h2.title {
         cursor: pointer;
         display: block;
     }
-    .header .search .group__input .btn1 {
+    header .search .group__input .btn1 {
         height: 100%;
         border: none;
         background-color: #0065FC;
@@ -607,7 +606,7 @@ h2.title {
     .activite1, .activite2, .activite3, .activite4, .activite5, .activite6{
         flex: 1;
     }
-    .footer{
+    footer{
         flex-direction: column;
         padding-bottom: 0;
     }
